@@ -10,14 +10,15 @@
 #include <patcher/rplinfo.h>
 #include <patcher/patcher.h>
 
-WUPS_PLUGIN_NAME("GiveMiiYouTube");
-WUPS_PLUGIN_DESCRIPTION("Allows the YouTube app to continue functioning after its discontinuation");
-WUPS_PLUGIN_VERSION("v2.0");
-WUPS_PLUGIN_AUTHOR("GaryOderNichts");
+WUPS_PLUGIN_NAME("GiveMiiYouTubeBeta");
+WUPS_PLUGIN_DESCRIPTION("fixes the youtube beta app");
+WUPS_PLUGIN_VERSION("v2.1");
+WUPS_PLUGIN_AUTHOR("GaryOderNichts and some other");
 WUPS_PLUGIN_LICENSE("MIT");
 
 #define YOUTUBE_CLIENT_ID "e921a604fce89365498613fdf001b492"
-#define YOUTUBE_TITLE_ID 0x0005000010105700llu
+#define YOUTUBE_TITLE_ID 0x000500001014CE00llu 
+// and we change the one line of code here ^
 #define YOUTUBE_USERAGENT_PLATFORM "WiiU; "
 #define YOUTUBE_USERAGENT_PLATFORM_REPLACEMENT "NoU; "
 
