@@ -12,7 +12,7 @@
 
 WUPS_PLUGIN_NAME("GiveMiiYouTubeBeta");
 WUPS_PLUGIN_DESCRIPTION("fixes the youtube beta app");
-WUPS_PLUGIN_VERSION("v2.1");
+WUPS_PLUGIN_VERSION("v2.0b");
 WUPS_PLUGIN_AUTHOR("GaryOderNichts and some other");
 WUPS_PLUGIN_LICENSE("MIT");
 
